@@ -1,0 +1,28 @@
+.aque_block
+{
+    background-color: aqua;
+    border: 2px solid forestgreen;
+}
+.bis_block
+{
+    float: left;
+    background-color: bisque;
+    width: 25%;
+    height: 100px;
+}
+.text
+{
+    display: inline-block;
+    background-color: darkgray;
+    width: 75%;
+    
+}
+img
+{
+    float:right;
+    width: 50%;
+}
+.clear
+{
+    clear: both;
+}

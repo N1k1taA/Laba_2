@@ -1,0 +1,50 @@
+.box
+{
+    display: inline-block;
+    background-color: aqua;
+    border: 2px solid forestgreen;
+}
+.box_2
+{
+    display: inline-block;
+    background-color: aqua;
+    border: 2px solid forestgreen;
+}
+.bis_block
+{
+    float:left;
+    background-color: bisque;
+    width: 25%;
+    height: 100%;
+}
+.text
+{
+    display: inline-block;
+    background-color: darkgray;
+    width: 75%;
+}
+@media(max-width: 600px)
+{
+    .box
+    {
+        display: none;
+    }
+    .bis_block
+    {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 10px 0 10px 0;
+    }
+    .text
+    {
+        width: 100%;
+    }
+}
+@media(min-width: 600px)
+{
+    .box_2
+    {
+        display: none;
+    }
+}

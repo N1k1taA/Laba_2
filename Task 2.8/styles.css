@@ -1,0 +1,31 @@
+
+.aque_block
+{
+    position: relative;
+    background-color: aqua;
+    max-width: 100%;
+
+}
+.bis_block
+{
+    position: absolute;
+    background-color: bisque;
+    width: 200px;
+    padding: 1px 0 8px 4px;
+    display:inline-block;
+}
+.text
+{
+    position: relative;
+    background-color: darkgray;
+    margin-left:200px;
+}
+.fixed
+{
+    position: fixed;
+    background-color: limegreen;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    right: 0;
+}

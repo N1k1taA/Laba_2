@@ -1,0 +1,12 @@
+img
+{
+    float:right;
+    height: 300px;
+
+}
+.box
+{
+    background-color: aqua;
+    border: 1px solid green;
+    height: 300px;
+}

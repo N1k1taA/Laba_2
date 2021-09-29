@@ -1,0 +1,12 @@
+.box_1
+{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    margin: 15px 15px 15px 15px;
+}
+.box_2
+{
+    background-color: bisque;
+}

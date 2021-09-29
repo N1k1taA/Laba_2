@@ -1,0 +1,21 @@
+.box
+{
+    background-color: aqua;
+    border: 1px solid forestgreen;
+}
+.bis_block
+{
+    float:left;
+    background-color: bisque;
+    width: 25%;
+    margin-right: 5px;
+    height: 100%;
+}
+.text
+{
+    display: inline-block;
+    background-color: darkgray;
+    margin-right: 5px;
+    min-width: 350px;
+    width: calc(100% - 25% - 5px - 5px);
+}
